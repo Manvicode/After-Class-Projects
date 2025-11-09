@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title> My School</title>
+    </head>
+    <body>
+        <h1>The name of my school is Shemrock.Sen.Sec.School </h1>
+        <h2>A few points on my school:- </h2>
+        <p>1. <b>I love my school.</b><br>
+        2. <i> My school is very big.</i>
+    3. <strong>My school has many rooms in it.</strong>
+4. <em> My school is very <u>beautiful.</u></em>
+5. <marquee>I <sub>love</sub> my <sup>school</sup> very much!</marquee></p>
+    </body>
+</html>
