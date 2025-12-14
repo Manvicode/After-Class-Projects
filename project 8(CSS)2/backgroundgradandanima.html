@@ -6,11 +6,33 @@
                   background-color: lightblue;
                   background-image: url("icecream.jpg");
                   background-repeat: no-repeat;
-                  background-position: top;
+                  background-position: top-right;
                   background-attachment: fixed;}
+            #grad1 {
+                height: 300px;
+                width: 600px;
+                background-color: red; /* For browsers that do not support gradients */
+                background-image: linear-gradient(to top right, pink, yellow, rgb(135, 135, 195), rgb(242, 161, 242));
+            }
+             @keyframes example {
+                0%   {background-color: lightgreen;}
+                25%  {background-color: yellow;}
+                50%  {background-color: pink;}
+                100% {background-color: skyblue;}
+            }
+
+            div {
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                animation-name: example;
+                animation-duration: 10s;
         </style>
     </head>
     <body>
+        <div id="grad1" style="text-align:center; margin:auto; color:#000; font-size:40px;font-weight:bold;">Welcome to Codingal</div>
         <p>I love coding!!</p>
+        <div>
+            Hi I am MANVI</div>
     </body>
 </html>
