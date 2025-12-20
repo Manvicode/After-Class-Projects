@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(137, 161, 152);
+    color:rgb(247, 189, 198);   
+}
+
+h1 {
+    color:rgb(9, 21, 32);
+}
+
+a {
+    color:rgb(189, 104, 121);
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(222, 202, 106);
+}
+
+ul > li {
+
+    font-weight: bold;
+}
+
+h1 + p {
+    background-color: rgb(169, 240, 153);
+    padding: 18px;
+    border-radius: 5px;
+}
+
+ul li:hover {
+    color:rgb(46, 74, 56);
+}
+
+ul li:nth-child(3) {
+    background-color: peachpuff;
+}
+
+p:not(:firt-of-type) {
+    text-decoration: underline;
+}
+
+ul li::before {
+    content: " ⭐ "; 
+}
